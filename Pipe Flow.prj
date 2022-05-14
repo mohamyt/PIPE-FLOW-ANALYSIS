@@ -1,0 +1,73 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="511397988" file="C:\Users\moham\OneDrive\Desktop\Spring 2022\past projects\app v2\Pipe Flow.prj" location="C:\Users\moham\OneDrive\Desktop\Spring 2022\past projects\app v2" name="Pipe Flow" target="target.mlapps" target-name="Package App">
+    <param.appname>Pipe Flow</param.appname>
+    <param.authnamewatermark>Mohammed Taha</param.authnamewatermark>
+    <param.email>myt@aucegypt.edu</param.email>
+    <param.company>The American University in Cairo</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>Calculates the flow rate, flow diamter or head loss in a conduit</param.summary>
+    <param.description>Calculates the flow rate, flow diamter or head loss in a conduit</param.description>
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>f1ead09b-5056-4ae7-b4b7-780530200336</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\projectapp.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\Contraction.png</file>
+      <file>${PROJECT_ROOT}\Expansion.png</file>
+      <file>${PROJECT_ROOT}\General.png</file>
+      <file>${PROJECT_ROOT}\Pipe_Enterance.png</file>
+      <file>${PROJECT_ROOT}\Smooth_Bend.png</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\moham\OneDrive\Desktop\Spring 2022\past projects" name="app v2" optional="false">C:\Users\moham\OneDrive\Desktop\Spring 2022\past projects\app v2</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2022a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

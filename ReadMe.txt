@@ -1,0 +1,1 @@
+Install the .mlappinstall file through Matlab's 'Apps' directory and run, or open the projectapp.mlapp through Matlab.
